@@ -9,7 +9,7 @@ try:
     port = int(sys.argv[2])
     message = sys.argv[3]
 except:
-    print("usage: upclient.py server port message", file=sys.stderr)
+    print("usage: client.py server port message", file=sys.stderr)
     sys.exit(1)
 
 # New UDP(datagram) socket
